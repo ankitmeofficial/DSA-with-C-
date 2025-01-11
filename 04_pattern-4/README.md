@@ -1,0 +1,6 @@
+like this pattern
+
+****
+***
+**
+*
