@@ -4,7 +4,10 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "xlocale": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "initializer_list": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

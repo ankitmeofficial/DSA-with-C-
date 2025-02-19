@@ -65,12 +65,17 @@ int main() {
     reverse(str.begin(), str.end());
     cout << "13. Reversed string: " << str << endl;
     reverse(str.begin(), str.end()); // Reverse back to original
+    // ✅ Works: Uses pointer to first element & first element + length
+    // reverse(&str[0], &str[0] + str.length());
 
+    
     // 14. Transform (Uppercase/Lowercase)
     transform(str.begin(), str.end(), str.begin(), ::toupper);
     cout << "14. Uppercase: " << str << endl;
     transform(str.begin(), str.end(), str.begin(), ::tolower);
     cout << "14. Lowercase: " << str << endl;
+
+
 
     // 15. Split
     string splitStr = "Split this string into words";

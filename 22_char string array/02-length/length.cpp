@@ -10,15 +10,16 @@ return count;
 }
 int main (){
 
-    cout<<"hello ji" <<endl;
 
     char name[20];
     cout<<"enter your name ";
     cin >> name ;
     cout <<"your name is "<<name << endl ;
-
     cout<<"length of name is "<<findlength(name) << endl;
 
 
+    string myaddress="this is my address";
+    cout<<"length of above stirng is "<< myaddress.length()<< endl;
+   
     return 0;
 }
