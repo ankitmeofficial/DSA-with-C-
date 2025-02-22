@@ -20,6 +20,8 @@ int main()
    cout<<"enter a element for search "<< endl;
    cin >> key ;
 
+   
+
 
 
 }

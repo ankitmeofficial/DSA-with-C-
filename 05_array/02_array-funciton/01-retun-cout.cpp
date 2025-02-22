@@ -11,7 +11,7 @@ int findingsum(int a , int b ){
 
 // this function  value can be reuse 
 int findingdiff(int a , int b ){
-   return a+b;
+   return a-b;
 }
 
 int main()
