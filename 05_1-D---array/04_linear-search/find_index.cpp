@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std ;
 
-
 // in this problem find index number of key if not there return -1;
 int findneeded(int arr[] , int size , int key){
     for (int i =0; i<=size ; i++){
@@ -11,7 +10,6 @@ int findneeded(int arr[] , int size , int key){
     }
     return -1;
 }
-
 
 int main(){
 int myarray[3]={1,2,3};
@@ -27,3 +25,5 @@ else {
 
     return 0;
 }
+
+
