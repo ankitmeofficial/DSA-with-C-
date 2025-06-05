@@ -2,6 +2,8 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "*.embeddedhtml": "html",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp"
     }
 }
