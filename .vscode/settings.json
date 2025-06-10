@@ -4,6 +4,8 @@
         "*.embeddedhtml": "html",
         "ostream": "cpp",
         "vector": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "iostream": "cpp",
+        "stack": "cpp"
     }
 }
